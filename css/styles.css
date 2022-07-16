@@ -1,0 +1,402 @@
+html{
+    background-image: linear-gradient(#f2c140,);
+}
+body{
+    font-family: "Montserrat",sans-serif ;
+    margin: 0;
+   background-color: #f2c140;
+   background-image: url(/8-dars/images/fon.png);
+   background-repeat: no-repeat;
+   background-position-x: center;
+   background-position-y: -40px;
+   background-attachment: fixed;
+}
+h1{
+    font-family: "Italiano",cursive;
+    text-align:center;
+    font-size: 50px;
+    letter-spacing: 15px;
+    text-transform: uppercase;
+    color: black;
+}
+h2,
+h3{
+    font-family: "Gluten", cursive;
+}
+.fon{
+    width: 100%;
+}
+.top{
+    position: relative;
+}
+.Umarak{
+    position: absolute;   
+    border-radius: 50%;
+    width: 260px;
+    height: 290px;
+    top: 430px;
+    left: 1522px;
+    border-style: solid; 
+   border-color: green;
+   border-width: 5px;
+   }
+   .Tahu{
+    position: absolute;   
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    top: 140px;
+    left: 80px;
+    border-style: solid; 
+   border-color: red;
+   border-width: 5px;
+   }
+   .Lewa{
+    position: absolute;   
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    top: 80px;
+    left: 430px;
+    border-style: solid; 
+   border-color: lightgreen;
+   border-width: 5px;
+   }
+   .Onua{
+    position: absolute;   
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    top: 189px;
+    left: 1350px;
+    border-style: solid; 
+   border-color:blueviolet;
+   border-width: 5px;
+   }
+   .Gali{
+    position: absolute;   
+    border-radius: 100%;
+    width: 220px;
+    height: 220px;
+    top: 70px;
+    left: 1100px;
+    border-style: solid; 
+   border-color:blue;
+   border-width: 5px;
+   }
+   .Pohatu{
+    position: absolute;   
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
+    top: 80px;
+    left: 1600px;
+    border-style: solid; 
+   border-color: orange;
+   border-width: 5px;
+   }
+   .Kopaka{
+    position: absolute;   
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    top: 421px;
+    left: 216px;
+    border-style:solid ; 
+   border-color: linen;
+   border-width: 5px;
+   }
+   .rounded{
+    position: absolute;
+    border-radius: 100%;
+    transition: 1s;
+   }
+   .rounded:hover{
+    width: 400px;
+    height: 400px;
+    z-index: 100;
+   }
+   .big-img{
+   position: relative;
+   width: 300px;
+   height: 100%;
+   border-radius: 50%;
+   float: left;
+   margin-right: 50px;
+   }
+   .to-left1{
+    float: left;
+    border-style: solid; 
+    border-color: lightgreen;
+    border-width: 5px;
+   }
+   .to-right1{
+    float: right;
+    border-style: solid; 
+    border-color: lightgreen;
+    border-width: 5px;
+   }
+   .to-left2{
+    float: left;
+    border-style: solid;
+    border-color: red; 
+    border-width: 5px;
+   }
+   .to-right2{
+    float: right;
+    border-style: solid;
+    border-color: red;  
+    border-width: 5px;
+   } 
+   .to-left3{
+    float: left;
+    border-style: solid;
+    border-color: linen;
+    border-width: 5px;  
+   }
+   .to-right3{
+    float: right;
+    border-style: solid; 
+    border-color:linen;
+    border-width: 5px; 
+   }
+   .to-left4{
+    float: left;
+    border-style: solid;
+    border-color: orange;
+    border-width: 5px;
+    width: 350px;  
+   }
+   .to-right4{
+    float: right;
+    border-style: solid; 
+    border-color:orange; 
+    border-width: 5px;
+   }
+   .to-left5{
+    float: left;
+    border-style: solid;
+    border-color:blueviolet; 
+    border-width: 5px;
+    width: 350px; 
+   }
+   .to-right5{
+    float: right;
+    border-style: solid; 
+    border-color:blueviolet; 
+    border-width: 5px;
+   }
+   .to-left6{
+    float: left;
+    border-style: solid;
+    border-color: blue;
+    border-width: 5px;  
+   }
+   .to-right6{
+    float: right;
+    border-style: solid; 
+    border-color:blue; 
+    border-width: 5px;
+   }
+   .to-left7{
+    float: left;
+    border-style: solid; 
+    border-color:green;
+    border-width: 5px;
+    width: 290px; 
+    height: 343px
+   }
+   .member{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    height: 345px;
+    border-style: solid;
+    border-color:#f2c140;
+    overflow: hidden;
+   }
+   .up-arrow{
+    position: fixed;
+    background-color:none ;
+    bottom: 0;
+    right: 0;
+    width: 65px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+   }
+   *{
+    scroll-behavior: smooth;
+   }
+   .bottom{
+    background-color: #eb9f0e;
+    padding:40px 0;
+    text-align: center;
+    margin-top: 100px;
+   }
+   .bottom p{
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+   }
+   .bottom a{
+    font-size: 20px;
+    margin:auto 20px ;
+    text-decoration: none; 
+    color: #422c03;
+    font-weight: 600;
+   }
+   .about{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 100px;
+    margin-bottom: -10px;
+   }
+   hr{
+    border-style: none;
+    border-top: dotted #422c03 10px;
+    width: 90px;
+    margin: 100px auto;
+   }
+   .All{
+        text-align: center;
+        border-color:#eb9f0e;
+        border-style: solid;
+   }
+   .bum{
+    width: 100%;
+    height:900px;
+   }
+   .Bionicle{
+          background-color: #f2c140;
+          margin-top: 1px;
+          position: absolute;
+          bottom: 730px;
+          left: 710px;
+          width: 390px;
+           height: 150px;
+           transition: 1s;
+   }
+   .Bionicle:hover{
+    z-index: 100;
+    width: 450px;
+    height: 200px;
+    left: 680px;
+   }
+   .navbutton{
+    background-color: green;
+    width: 100px;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    text-align: center;
+}
+a{
+    color: lawngreen; 
+    text-decoration: none;
+}
+.dropdown .navbutton{
+    background-color: green;
+    margin-left: -30px;
+    display: block;
+}
+.dropdown{
+    position: absolute;
+    padding-top: 15px;
+    display: none;
+}
+.navbutton:hover .dropdown{
+    display: block;   
+}
+.dropdown a{
+    color: lawngreen;
+}
+#red{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+.button{
+    padding: 15px 20px;
+    background-color: white;
+    color: red;
+    border-radius: 10px;
+    margin-left: 100px;
+    width: 500px;
+    height: 300px;
+    border-style: none;
+}
+.button:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    padding: 20px 50px;
+    transition: 2s;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+}
+input[type="text"], 
+input[type="email"], 
+textarea{
+    padding: 10px;
+    width: 90%;
+}
+.ball{
+    display: block;
+    margin-bottom: 5px;
+}
+.control{
+    margin-bottom: 10px;
+}
+.foot{
+    margin-left: 10px;
+    margin-right: 50px;
+}
+input[type=radio], 
+input[type=checkbox]{
+     width: 1rem;
+     height: 1rem;
+}
+.go{
+    padding: 10px 5px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 30px;
+    border-style: none;
+}
+.go:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    transition: 2s;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+.go2{
+    padding: 10px 20px;
+    background-color: white;
+    color: red;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 200px;
+    height: 50px;
+    border-style: none;
+}
+.go2:hover{
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    transition: 2s;
+    padding: 10px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
